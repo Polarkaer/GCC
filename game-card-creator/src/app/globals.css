@@ -32,6 +32,22 @@ body {
       display: grid;
       grid-template-columns: 3fr 1fr;
       grid-template-rows: 1fr;
+      section.card-preview {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card-main {
+          border: #ededed 1px solid;
+          border-radius: 12px;
+          background: var(--color-blue-500);
+        }
+      }
+      aside.card-editor {
+        border-left: #ededed 1px solid;
+        background-color: #7e7e7e;
+        padding: 1rem;
+        color: #222;
+      }
     }
   }
 }
